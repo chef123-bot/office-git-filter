@@ -1,0 +1,11 @@
+# Basic office file diff support
+*.pdf diff=pdf
+*.docx diff=office
+*.xlsx diff=office
+*.pptx diff=office
+
+# Prevent line ending issues
+*.pdf -text
+*.docx -text
+*.xlsx -text
+*.pptx -text
